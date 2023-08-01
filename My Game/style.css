@@ -1,0 +1,180 @@
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    position: absolute;
+
+}
+
+.body{
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+;
+    
+
+}
+
+.player{
+    width: 300px;
+    position: absolute;
+    margin-top: 606px;
+    margin-left: 220px;
+}
+
+.score{
+    position: absolute;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.block{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: url("giphy.gif");
+    background-size: cover;
+    margin-top: 833px;
+    
+}
+
+.b1{
+    position: absolute;
+    background-color: yellow;
+    height: 40px;
+    width: 175px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:  "Gotham SSm" ;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+}
+
+.b2{
+    position: absolute;
+    background-color: yellow;
+    height: 40px;
+    width: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:  "Gotham SSm" ;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 175px;
+    
+}
+
+.gameover{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-image: url("gameOver.jpg");
+    display: flex;
+    background-size: cover;
+    position: absolute;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: red;
+
+    font-family: 'Montserrat',sans-serif;
+    -webkit-text-fill-color: rgb(10, 10, 10);
+    -webkit-text-stroke: 5px ;
+    text-shadow: 10px;
+
+    visibility: hidden;
+}
+
+.b3{
+    width: 350px;
+    height: 60px;
+    background-color: gold;
+    margin-top: 50px;
+
+    font-size: 39px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    border-width: 5px;
+    border-radius: 10px;
+
+    
+   
+}
+
+.ys{
+    color: black;
+    font-size: 90px;
+    font-family: 'Montserrat',sans-serif;
+    -webkit-text-fill-color: gold;
+    -webkit-text-stroke: 5px ;
+    text-shadow: 1px;
+}
+
+.sco{
+    color: rgb(10, 9, 2);
+    font-family: 'Montserrat',sans-serif;
+    -webkit-text-fill-color: gold;
+    -webkit-text-stroke: 7px ;
+    text-shadow: 100px;
+    
+}
+
+
+.b4{
+    position: absolute;
+    background-color: gold;
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    margin-left: 1150px;
+    margin-top: 20px;
+   
+}
+.i1{
+    position: absolute;
+    height: 55px;
+    margin-left:-27px;
+    margin-top: -28px;
+}
+
+.win{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-image: url("gameOver.jpg");
+    display: flex;
+    background-size: cover;
+    position: absolute;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+    font-family: 'Montserrat',sans-serif;
+    -webkit-text-fill-color: gold;
+    -webkit-text-stroke: 5px ;
+    text-shadow: 10px;
+
+    visibility: hidden;
+    
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Running  Iron</title>
+        <link rel="icon" href="icon.ico"/>
+        <link rel="stylesheet" href="style.css"/>
+
+    </head>
+    <body class="body" id="body" onkeydown="keyCheck(event);">
+
+        <div class="background" id="background">
+            <div  >
+                <button class="b1"> Score :- 
+                    <button class="b2" id="score">0</button>
+                </button>
+                <a href="file:///C:/Users/User/Desktop/Home%20Page/index.html">
+                    <button class="b4">
+                        <img src="home_circle_icon_137496.ico" class="i1"/>
+                    </button>
+                </a>
+                
+            </div>
+            <img src="Run (1).png" class="player" id="player">
+        </div>
+        
+        <div class="gameover" id="gameOver">
+            
+            <div>Game Over</div>
+            <div class="ys">Your Score</div>
+            <div class="sco" id="endScore">0</div>
+
+            <button class="b3" onclick="re();">Try Again</button>
+        </div>
+
+        <div class="win">
+            YOU WIN
+        </div>
+       
+        <script src="script.js"></script>
+    </body>
+</html>
